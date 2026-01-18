@@ -170,14 +170,14 @@ end)
 -- ═══════════════════════════════════════════════════════════════════════
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bitef4/Recode/main/UI/Kavo_1.lua"))()
-local Window = Library.CreateLib("AlexFearless | Arsenal | v2.0", "BlackTheme")
+local Window = Library.CreateLib("AlexFearless | Arsenal | v2.0", "BlueTheme")
 
 -- ═══════════════════════════════════════════════════════════════════════
 -- MAIN TAB
 -- ═══════════════════════════════════════════════════════════════════════
 
 local Welcome = Window:NewTab("Main")
-local MainSection = Welcome:NewSection("Welcome To AdvanceTech | " .. LocalPlayer.Name)
+local MainSection = Welcome:NewSection("Welcome To Fearless | " .. LocalPlayer.Name)
 
 -- ═══════════════════════════════════════════════════════════════════════
 -- HITBOX SECTION
@@ -1765,8 +1765,7 @@ local Section = Credit:NewSection("Guide & Assistance: AlexFearless")
 
 Section:NewDropdown("Developer", "Select developer", {"YellowGreg", "WspBoy12", "MMSVon", "ShadowClark", "Frostbite", "AlexFearless"}, function(currentDeveloper)
     local creations = {
-        AlexFearless = "Owner",
-     
+        AlexFearless = "Owner", 
     }
     print(currentDeveloper .. " - " .. (creations[currentDeveloper] or "Team Member"))
 end)
@@ -1842,3 +1841,4 @@ print("║           AdvanceTech Arsenal Script v2.0 Loaded Successfully!       
 print("║                      Guide: AlexFearless                                  ║")
 
 print("╚═══════════════════════════════════════════════════════════════════════════╝")
+
