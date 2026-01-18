@@ -1,7 +1,7 @@
 --[[
 ╔═══════════════════════════════════════════════════════════════════════════╗
 ║                     AdvanceTech Arsenal Script v2.0                        ║
-║                      Developed by: AdvanceFalling Team                     ║
+║                      Developed by: Alex Fearless                         ║
 ║                            Guide: AlexFearless                             ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
 ]]
@@ -42,7 +42,7 @@ local LocalPlayer = Players.LocalPlayer
 -- ═══════════════════════════════════════════════════════════════════════
 
 StarterGui:SetCore("SendNotification", {
-    Title = "AdvanceTech Arsenal",
+    Title = "Alex Fearless Arsenal",
     Text = "Working For Mobile and PC Executor",
     Duration = 8,
 })
@@ -51,7 +51,7 @@ wait(1)
 
 StarterGui:SetCore("SendNotification", {
     Title = "Made By:",
-    Text = "AdvancedFalling Team | Guide: AlexFearless",
+    Text = "Alex Fearless Arsenal | Guide: AlexFearless",
     Icon = "rbxthumb://type=Asset&id=13508183954&w=150&h=150",
     Duration = 8,
 })
