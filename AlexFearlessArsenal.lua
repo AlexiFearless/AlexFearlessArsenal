@@ -1,7 +1,7 @@
 --[[
 ╔═══════════════════════════════════════════════════════════════════════════╗
 ║                     AdvanceTech Arsenal Script v2.0                        ║
-║                      Developed by: AdvanceFalling Team                     ║
+║                      Developed by: AlexFearless                            ║
 ║                            Guide: AlexFearless                             ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
 ]]
@@ -170,7 +170,7 @@ end)
 -- ═══════════════════════════════════════════════════════════════════════
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bitef4/Recode/main/UI/Kavo_1.lua"))()
-local Window = Library.CreateLib("AdvanceTech | Arsenal | v2.0", "BlueTheme")
+local Window = Library.CreateLib("AlexFearless | Arsenal | v2.0", "BlackTheme")
 
 -- ═══════════════════════════════════════════════════════════════════════
 -- MAIN TAB
@@ -1765,12 +1765,8 @@ local Section = Credit:NewSection("Guide & Assistance: AlexFearless")
 
 Section:NewDropdown("Developer", "Select developer", {"YellowGreg", "WspBoy12", "MMSVon", "ShadowClark", "Frostbite", "AlexFearless"}, function(currentDeveloper)
     local creations = {
-        YellowGreg = "Owner",
-        WspBoy12 = "Head Developer",
-        MMSVon = "Head Developer",
-        ShadowClark = "Head Developer",
-        Frostbite = "Head Developer",
-        AlexFearless = "Guide & Contributor",
+        AlexFearless = "Owner",
+     
     }
     print(currentDeveloper .. " - " .. (creations[currentDeveloper] or "Team Member"))
 end)
@@ -1844,4 +1840,5 @@ end)
 print("╔═══════════════════════════════════════════════════════════════════════════╗")
 print("║           AdvanceTech Arsenal Script v2.0 Loaded Successfully!            ║")
 print("║                      Guide: AlexFearless                                  ║")
+
 print("╚═══════════════════════════════════════════════════════════════════════════╝")
