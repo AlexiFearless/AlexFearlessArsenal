@@ -1,7 +1,7 @@
 --[[
 ╔═══════════════════════════════════════════════════════════════════════════╗
 ║                     AdvanceTech Arsenal Script v2.0                        ║
-║                      Developed by: AlexFearless                            ║
+║                      Developed by: AdvanceFalling Team                     ║
 ║                            Guide: AlexFearless                             ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
 ]]
@@ -170,14 +170,14 @@ end)
 -- ═══════════════════════════════════════════════════════════════════════
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bitef4/Recode/main/UI/Kavo_1.lua"))()
-local Window = Library.CreateLib("AlexFearless | Arsenal | v2.0", "BlueTheme")
+local Window = Library.CreateLib("AdvanceTech | Arsenal | v2.0", "BlueTheme")
 
 -- ═══════════════════════════════════════════════════════════════════════
 -- MAIN TAB
 -- ═══════════════════════════════════════════════════════════════════════
 
 local Welcome = Window:NewTab("Main")
-local MainSection = Welcome:NewSection("Welcome To Fearless | " .. LocalPlayer.Name)
+local MainSection = Welcome:NewSection("Welcome To AdvanceTech | " .. LocalPlayer.Name)
 
 -- ═══════════════════════════════════════════════════════════════════════
 -- HITBOX SECTION
@@ -1760,12 +1760,12 @@ end)
 
 local Credit = Window:NewTab("Credits")
 local Section = Credit:NewSection("Credits")
-local Section = Credit:NewSection("Script Developed by: AdvanceFalling Team")
+local Section = Credit:NewSection("Script Developed by: Alex Fearless")
 local Section = Credit:NewSection("Guide & Assistance: AlexFearless")
 
-Section:NewDropdown("Developer", "Select developer", {"YellowGreg", "WspBoy12", "MMSVon", "ShadowClark", "Frostbite", "AlexFearless"}, function(currentDeveloper)
+Section:NewDropdown("Developer", "Select developer", {"AlexFearless"}, function(currentDeveloper)
     local creations = {
-        AlexFearless = "Owner", 
+        AlexFearless = "Owner",
     }
     print(currentDeveloper .. " - " .. (creations[currentDeveloper] or "Team Member"))
 end)
@@ -1839,6 +1839,4 @@ end)
 print("╔═══════════════════════════════════════════════════════════════════════════╗")
 print("║           AdvanceTech Arsenal Script v2.0 Loaded Successfully!            ║")
 print("║                      Guide: AlexFearless                                  ║")
-
 print("╚═══════════════════════════════════════════════════════════════════════════╝")
-
