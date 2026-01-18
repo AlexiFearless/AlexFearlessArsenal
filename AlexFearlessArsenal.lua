@@ -170,14 +170,14 @@ end)
 -- ═══════════════════════════════════════════════════════════════════════
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bitef4/Recode/main/UI/Kavo_1.lua"))()
-local Window = Library.CreateLib("AdvanceTech | Arsenal | v2.0", "BlueTheme")
+local Window = Library.CreateLib("AlexFearless | Arsenal | v2.0", "BlueTheme")
 
 -- ═══════════════════════════════════════════════════════════════════════
 -- MAIN TAB
 -- ═══════════════════════════════════════════════════════════════════════
 
 local Welcome = Window:NewTab("Main")
-local MainSection = Welcome:NewSection("Welcome To AdvanceTech | " .. LocalPlayer.Name)
+local MainSection = Welcome:NewSection("Welcome To AlexFearless | " .. LocalPlayer.Name)
 
 -- ═══════════════════════════════════════════════════════════════════════
 -- HITBOX SECTION
