@@ -170,7 +170,7 @@ end)
 -- ═══════════════════════════════════════════════════════════════════════
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bitef4/Recode/main/UI/Kavo_1.lua"))()
-local Window = Library.CreateLib("AlexFearless | Arsenal | v2.0", "BlueTheme")
+local Window = Library.CreateLib("AlexFearless | Arsenal | v2.0", "BlackTheme")
 
 -- ═══════════════════════════════════════════════════════════════════════
 -- MAIN TAB
